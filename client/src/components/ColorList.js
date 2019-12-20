@@ -39,7 +39,7 @@ const ColorList = ({ colors, updateColors }) => {
       console.log(res)
     })
     .catch( err => {
-      console.log("Can't Delete")
+      console.log("Can't Delete", err)
     })
   };
 
